@@ -1,0 +1,139 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 144px;
+    display: inline-block;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+    cursor: pointer;
+}
+
+.link-header {
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29.26px;
+    margin-right: 23px;
+
+}
+
+.button-header {
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+section {
+    display: inline-block;
+    margin: 130px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: #515151;
+
+}
+
+h2 {
+    color: #515151;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+}
+
+p {
+    color: #515151;
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    word-spacing: 3px;
+
+}
+
+.button-main {
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.button-header:hover {
+    cursor: pointer;
+    width: 135px;
+    height: 46px;
+    letter-spacing: 2px;
+}
+
+.button-main:hover {
+    cursor: pointer;
+    width: 250px;
+    height: 70px;
+    letter-spacing: 2px;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin: 0 auto;
+        margin-top: 149px;
+        position: static;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 60.95px;
+        margin: 24px 63px 7px 64px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 36.57px;
+    }
+
+    section {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    button {
+        margin: 61px 0;
+    }
+}
